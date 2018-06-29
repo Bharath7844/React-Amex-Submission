@@ -1,0 +1,22 @@
+.App {
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+ }
+.Content-Container {
+    flex: 1;
+    display: flex;
+    background-color: #f3f3f3;
+    min-height: 100%;
+}
+.Side-Panel {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+}
+.Display-Panel {
+    flex: 4;
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
